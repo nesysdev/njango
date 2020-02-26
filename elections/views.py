@@ -1,10 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import pdfkit
 
 # Create your views here.
 def index(request):
-	return HttpResponse("Hello world")
+	return HttpResponse("Hello world111")
 	#config = pdfkit.configuration(wkhtmltopdf='C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe')
 	#pdf = pdfkit.from_url('https://www.neungyule.com','',configuration=config)
 
@@ -13,4 +12,8 @@ def index(request):
 
 	#return response
 
+def	index2(request):
+	return HttpResponse("Hello world22222")
 
+def	index3(request):
+	return HttpResponse("Hello world33333")	
